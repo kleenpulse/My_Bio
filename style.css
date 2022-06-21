@@ -1,0 +1,27 @@
+
+html,body{
+    overflow: hidden;
+    height: 100%;
+}
+body {
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border-radius: 50px;
+    padding: 3rem;
+    margin: 0 2rem;
+    box-shadow: 41px 41px 82px #c8c8c8,
+        -41px -41px 82px #ffffff;
+}
+
+.content div p{
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+    color: #000a2d;
+    text-transform: uppercase;
+
+}

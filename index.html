@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BIO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="name">
+                <p id="name"></p>
+            </div>
+
+            <div class="height">
+                <p id="height"></p>
+            </div>
+            <div class="country">
+                <p id="country"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const nameVal = 'Isaac Gideon(Pulse)';
+        let heightVal = "5'9(1.798meters)";
+        const countryVal = 'Nigeria';
+
+        const name = document.getElementById('name');
+        name.textContent = "Name: "+ nameVal;
+
+        let height = document.getElementById('height');
+        height.textContent = "Height: "+ heightVal
+
+        const country = document.getElementById('country');
+        country.textContent ="Country: "+ countryVal
+    </script>
+</body>
+
+</html>
